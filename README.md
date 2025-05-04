@@ -12,7 +12,7 @@ Projekt je rozdělen na 4 složky :
 |ESP32C3         |kód který se liší od univerzálního            |toolbox.xml, příklady atp.            |
 |ESP32S3         |kód který se liší od univerzálního            |toolbox.xml, příklady atp.            |
 
-# Jak kód nahrát do ESP ?
+# Jak nahrát kód do ESP ?
 můžete použít online instalátor na **https://espide.eu/**
 nebo
 použijte nástroj **Thonny** a do procesoru nakopírujte obsah složky universal + obsah složky podle názvu vašeho procesoru.
