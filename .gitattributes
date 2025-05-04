@@ -1,2 +1,15 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# Auto-detekce textu a uložení do repa s LF
+*             text=auto
+
+# Vynutíme LF pro naše zdrojáky
+*.html        text eol=lf
+*.css         text eol=lf
+*.js          text eol=lf
+*.ts          text eol=lf
+*.xml         text eol=lf
+*.md          text eol=lf
+
+# Binárky necháme nedotčené
+*.png         binary
+*.jpg         binary
+*.exe         binary
